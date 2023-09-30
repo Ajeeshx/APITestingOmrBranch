@@ -23,6 +23,9 @@ public class ApiHttpMethods {
 		 
 		 String asPrettyString = response.asPrettyString();
 		 System.out.println(asPrettyString);
+		 
+		 String asString = response.asString();
+		 System.out.println(asString);
 		
 		
 		
